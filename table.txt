@@ -1,0 +1,24 @@
+DB Auto Usate:
+"Set a table to memorize all the data relating to some second hand cars put up for sale by a car dealer.
+Specify the item's primary keys, the attributes and the types of data"
+
+Second hand car table:
+primary key: id - attributes: NOT NULL, UNIQUE, AUTO INCREMENT - data type: TINYINT
+primary key: brand - attributes: NOT NULL, UNIQUE - data type: VARCHAR
+primary key: model - attributes: NOT NULL, UNIQUE - data type: VARCHAR
+primary key: color - attributes: NOT NULL - data type: VARCHAR
+primary key: performed kms - attributes: NOT NULL - data type: SMALLINT
+primary key: year - attributes: NULL - data type: YEAR
+primary key: length(cm) - attributes: NOT NULL - data type: SMALLINT
+primary key: width(cm) - attributes: NOT NULL - data type: SMALLINT
+primary key: doors - attributes: NOT NULL - data type: TINYINT
+primary key: seats - attributes: NOT NULL - data type: TINYINT
+primary key: luggage capacity - attributes: NOT NULL - data type: VARCHAR
+primary key: gear stick - attributes: NOT NULL - data type: VARCHAR
+primary key: max. speed(kms/h) - attributes: NOT NULL - data type: SMALLINT
+primary key: engine - attributes: NOT NULL - data type: VARCHAR
+primary key: power supply - attributes: NOT NULL - data type: VARCHAR
+primary key: description - attributes: NULL, UNIQUE - data type: TEXT
+primary key: vintage car - attributes: NULL - data type: BOOLEAN
+primary key: change of ownership's cost - attributes: NULL - data type: SMALLINT
+primary key: price - attributes: NOT NULL - data type: SMALLINT
